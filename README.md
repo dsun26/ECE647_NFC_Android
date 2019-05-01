@@ -1,17 +1,19 @@
-#NFC application for ECE647
+# NFC application for ECE647
 
 Acts like a NFC messenger (made for our NFC eavesdropping project)
 
-Uses NDEF Messages and Records
+Will be used to test NFC eavesdropping
 
-##Phone in write mode
+Uses NDEF Messages/Records, AES encryption
+
+## Phone in write mode
 
 - Sends the written string when phones are close enough for NFC
 
 - If user enters a secret key, the string to be sent is encrypted using AES with that secret key string as a "password"
 
 
-##Phone in read mode
+## Phone in read mode
 
 - Displays the received string
 
