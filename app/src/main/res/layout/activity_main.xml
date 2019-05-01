@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp"
+    >
+
+    <TextView
+        android:id="@+id/modeLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="40sp"
+        android:text="@string/readMode"
+        android:padding="25dp"
+        />
+    <EditText
+        android:id="@+id/secretKeyText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/secretKeyHint"
+        />
+
+    <EditText
+        android:id="@+id/writeMessageText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/writeMessage"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/readMessageText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:hint="@string/readMessage"
+        android:padding="25dp"
+        />
+
+    <!--<CheckBox-->
+        <!--android:id="@+id/beamCheckBox"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/beam_checkbox"-->
+        <!--android:layout_gravity="left|center_vertical"-->
+        <!--android:checked="true"-->
+        <!--/>-->
+
+    <!--<CheckBox-->
+        <!--android:id="@+id/nfcCheckBox"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/nfc_checkbox"-->
+        <!--android:layout_gravity="left|center_vertical"-->
+        <!--android:checked="true"-->
+        <!--/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/writeButton"-->
+        <!--android:onClick="addMessage"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:layout_marginBottom="15dp"-->
+        <!--android:padding="30dp"-->
+        <!--android:text="Write message"-->
+        <!--android:textSize="15sp"-->
+        <!--android:visibility="gone"-->
+        <!--/>-->
+
+    <Button
+        android:id="@+id/switchButton"
+        android:onClick="switchMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
+        android:padding="30dp"
+        android:text="@string/switchButtonWrite"
+        android:textSize="25sp"
+        />
+</LinearLayout>

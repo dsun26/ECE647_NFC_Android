@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ECE647_NFC_Android</string>
+    <string name="title_activity_write">Write activity</string>
+    <string name="switchButtonWrite">Write Mode</string>
+    <string name="switchButtonRead">Read Mode</string>
+    <!--<string name="nfc_checkbox">Send to NFC Tags</string>-->
+    <!--<string name="beam_checkbox">Send via Android Beam</string>-->
+    <string name="writeMessage">Send message</string>
+    <string name="readMessage">Received message(s)</string>
+    <string name="action_settings">settings</string>
+    <!--<string name="title_activity_receive_message">ReceiveMessageActivity</string>-->
+    <string name="secretKeyHint">Secret Key</string>
+    <string name="readMode">Mode: Read</string>
+    <string name="writeMode">Mode: Write</string>
+</resources>
